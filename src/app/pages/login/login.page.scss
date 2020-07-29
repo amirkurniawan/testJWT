@@ -1,0 +1,78 @@
+* {
+    font-weight: 300;
+}
+ion-text{
+    position: absolute;
+    top: 25%;
+
+    h1{
+        font-size: 42px;
+    }
+    p{
+        font-size: 14px;
+        color: #696969;
+    }
+}
+
+// ion-content {
+//     // background-image: url(../../../assets/image1.jpg);
+// //     --color: #000f12;
+// //     --keyboard-offset: 0px;
+// //     --offset-bottom: 0px;
+// //     --offset-top: 0px;
+// //     --padding-bottom: 0px;
+// //     --padding-end: 0px;
+// //     --padding-start: 0px;
+// //     --padding-top: 0px;
+// // 
+// }
+
+.actions{
+    position: absolute;
+    width: 92%;
+    bottom: 40px;
+}
+
+ion-button {
+   
+    --border-radius: 9px;
+    --box-shadow: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.masukTombol{
+    --background:linear-gradient(130deg, #265df1 0%, #7085bd 50%, #b1a4e9 100%);
+}
+.daftarTombol{
+    --background:linear-gradient(90deg, #b8f5b6 0%, #9bf865 50%, #54cf01 100%);
+    --color : #463e3e;
+}
+
+.separator{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 10px;
+    font-size: 12px;
+    position: relative;
+    text-transform: uppercase;
+    .line {
+        position: absolute;
+        border-top: 1px solid #dfdfdf;
+        width: 50px;
+        height: 2px;
+        top: 8px;
+
+    }
+    .right{
+        right: 100px;
+    }
+    .left{
+        left: 100px;
+    }
+}
+
+
+

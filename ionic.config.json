@@ -1,5 +1,7 @@
 {
   "name": "belajarJWT",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
