@@ -3,8 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  url: 'https://pajak.virtual-indo.com/api/v1' // url global
+	production: false,
+	url: 'http://laravel-api.wik/api' // url global
 };
 
 /*

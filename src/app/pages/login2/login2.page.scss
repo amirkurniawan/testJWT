@@ -1,0 +1,61 @@
+.content {
+	position: fixed;
+	margin-top: 310px;
+	margin-left: 40px;
+}
+
+.buttons-action {
+	margin-left: 5px;
+}
+
+.signup-text {
+	font-size: x-small;
+	color: #a8a8a8;
+	text-align: center;
+	font-family: sans-serif;
+	text-transform: none;
+}
+
+.signin-text {
+	font-size: small;
+	color: #070707;
+	text-align: center;
+	font-family: sans-serif;
+	text-transform: none;
+}
+
+ion-input {
+	background-color: #ededed;
+	border-radius: 5px;
+	font-size: small;
+}
+
+.action-buttons {
+	background-color: turquoise;
+	color: black;
+	border-radius: 5px;
+	margin-left: 15px;
+	margin-right: 13px;
+	font-size: small;
+	font-family: sans-serif;
+	text-transform: none;
+}
+
+ion-checkbox {
+	--background: #a04eff;
+	--background-checked: #a04eff;
+	--border-color: #a04eff;
+	--border-radius: 5px;
+	--checkmark-color: white;
+	width: 10px;
+	height: 10px;
+}
+
+.line {
+	background-color: #3b5998;
+}
+
+// .ion-padding {
+// 	padding-left: 10px !important;
+// 	font-family: sans-serif;
+// }
